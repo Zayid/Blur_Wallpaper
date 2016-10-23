@@ -3,7 +3,7 @@ package com.whackyard.whatsappwalls;
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
@@ -27,7 +27,9 @@ public class MainActivity extends AppCompatActivity {
 
         mImgList = (RecyclerView) findViewById(R.id.wall_list);
         mImgList.setHasFixedSize(true);
-        mImgList.setLayoutManager(new LinearLayoutManager(this));
+        mImgList.setLayoutManager(new GridLayoutManager(getApplicationContext(),2));
+        ItemOffsetDecoration itemDecoration = new ItemOffsetDecoration(getApplicationContext(), R.dimen.item_offset);
+        mImgList.addItemDecoration(itemDecoration);
 
         database = FirebaseDatabase.getInstance();
         myRef = database.getReference().child("Blur");
