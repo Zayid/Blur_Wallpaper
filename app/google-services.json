@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1099119042925",
+    "firebase_url": "https://whatsapp-walls.firebaseio.com",
+    "project_id": "whatsapp-walls",
+    "storage_bucket": "whatsapp-walls.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099119042925:android:b60ed05d513ab2d4",
+        "android_client_info": {
+          "package_name": "com.whackyard.whatsappwalls"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099119042925-mfkvhj2ppgbvbbmd3fd7bur2tlg6pt62.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.whackyard.whatsappwalls",
+            "certificate_hash": "FECADFA479D452AA7CF5E3C2467E86C1BA09730D"
+          }
+        },
+        {
+          "client_id": "1099119042925-eetfllmiiaajqotpje27knmthrgi5mrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_wV-wjPFE3ucU3ttlFCH7MZusoPGLtkI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099119042925-eetfllmiiaajqotpje27knmthrgi5mrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
