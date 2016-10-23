@@ -18,6 +18,6 @@
             android:layout_height="match_parent"
             android:src="@drawable/hourglass"
             android:id="@+id/ivWalls"
-            android:scaleType="centerCrop" />
+            android:scaleType="centerInside" />
     </android.support.v7.widget.CardView>
 </LinearLayout>
