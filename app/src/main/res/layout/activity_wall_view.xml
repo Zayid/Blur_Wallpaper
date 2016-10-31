@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_wall_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.whackyard.whatsappwalls.WallViewActivity">
+
+    <ImageView
+        android:layout_height="match_parent"
+        android:id="@+id/ivFullScreen"
+        android:layout_width="match_parent"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"/>
+
+    <com.github.rahatarmanahmed.cpv.CircularProgressView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/progress_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:cpv_animAutostart="true"
+        app:cpv_indeterminate="true" />
+
+</RelativeLayout>
