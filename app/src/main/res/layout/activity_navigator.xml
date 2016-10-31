@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/activity_navigator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    tools:context="com.whackyard.whatsappwalls.NavigatorActivity">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/frmMinimal"
+                    android:onClick="loadThumb">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/minimal"
+                    android:id="@+id/imageView2"
+                    android:scaleType="centerCrop" />
+                <TextView
+                    android:text="Minimal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/semitransparent"
+                    android:layout_gravity="bottom"
+                    android:textSize="16sp"
+                    android:id="@+id/tvMinimalist"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp" />
+            </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/frmMaterial"
+                    android:onClick="loadThumb">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/material"
+                            android:id="@+id/ivMaterial"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:text="Material"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:background="@color/semitransparent"
+                            android:layout_gravity="bottom"
+                            android:textSize="16sp"
+                            android:id="@+id/tvMaterial"
+                            android:paddingLeft="12dp"
+                            android:paddingTop="12dp"
+                            android:paddingBottom="12dp" />
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/frmBokeh"
+                    android:onClick="loadThumb">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bokeh"
+                    android:id="@+id/ivBokeh"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:text="Bokeh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/semitransparent"
+                    android:layout_gravity="bottom"
+                    android:textSize="16sp"
+                    android:id="@+id/tvBokeh"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp" />
+            </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/frmAbstract"
+                    android:onClick="loadThumb">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/abstracts"
+                    android:id="@+id/ivAbstract"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:text="Abstract"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/semitransparent"
+                    android:layout_gravity="bottom"
+                    android:textSize="16sp"
+                    android:id="@+id/tvAbstract"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp" />
+            </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/frmEarth"
+                    android:onClick="loadThumb">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/earth"
+                    android:id="@+id/ivEarth"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:text="Earth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/semitransparent"
+                    android:layout_gravity="bottom"
+                    android:textSize="16sp"
+                    android:id="@+id/tvEarth"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp" />
+            </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/frmCityscapes"
+                    android:onClick="loadThumb">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/cityscapes"
+                    android:id="@+id/ivCity"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:text="Cityscapes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/semitransparent"
+                    android:layout_gravity="bottom"
+                    android:textSize="16sp"
+                    android:id="@+id/tvCityscapes"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/frmBlur"
+                    android:onClick="loadThumb">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/blur"
+                    android:id="@+id/imageView"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:text="Blur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/semitransparent"
+                    android:layout_gravity="bottom"
+                    android:textSize="16sp"
+                    android:id="@+id/tvBlur"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp" />
+            </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/frmPattern"
+                    android:onClick="loadThumb">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/pattern"
+                            android:id="@+id/ivPattern"
+                            android:scaleType="centerCrop" />
+                        <TextView
+                            android:text="Pattern"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:background="@color/semitransparent"
+                            android:layout_gravity="bottom"
+                            android:textSize="16sp"
+                            android:id="@+id/tvPattern"
+                            android:paddingLeft="12dp"
+                            android:paddingTop="12dp"
+                            android:paddingBottom="12dp" />
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/frmSky"
+                    android:onClick="loadThumb">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/sky"
+                    android:id="@+id/ivSky"
+                    android:scaleType="centerCrop" />
+                <TextView
+                    android:text="Sky"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/semitransparent"
+                    android:layout_gravity="bottom"
+                    android:textSize="16sp"
+                    android:id="@+id/tvSky"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp" />
+            </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/frmLandscapes"
+                    android:onClick="loadThumb">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/nature"
+                    android:id="@+id/ivNature"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:text="Landscapes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/semitransparent"
+                    android:layout_gravity="bottom"
+                    android:textSize="16sp"
+                    android:id="@+id/tvNature"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp" />
+            </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/frmAnimal"
+                    android:onClick="loadThumb">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/animal"
+                    android:id="@+id/ivAnimals"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:text="Animals"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/semitransparent"
+                    android:layout_gravity="bottom"
+                    android:textSize="16sp"
+                    android:id="@+id/tvAnimal"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp" />
+            </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/frmSuperHeroes"
+                    android:onClick="loadThumb">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/superheroes"
+                    android:id="@+id/ivHeroes"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:text="Super Heroes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/semitransparent"
+                    android:layout_gravity="bottom"
+                    android:textSize="16sp"
+                    android:id="@+id/tvHeroes"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp" />
+            </FrameLayout>
+        </LinearLayout>
+</LinearLayout>
+</ScrollView>
